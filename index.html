@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/@fonts.css">
+    <script src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>ZipLine</title>
+</head>
+<header class="header">
+    <div class="container header__container">
+        <div class="header__row">
+            <nav class="header__nav">
+                <ul id="menu-header-menu" class="header__nav">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">О зиплайне</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Карта</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Эмоции</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Отзывы</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">                                              
+                <img src="./assets/images/header-logo-fixed.svg" alt="" class="header__logo-fixed">
+                <a class="header__phone" href="tel:+78462540863"> +78462540863 </a>
+                <button type="button" class="header__hamburger" aria-label="Открыть меню">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <main>
+        <section class="hero">
+            <div class="hero__background">
+                <img class="hero__background-image" src="./assets/images/hero_background.jpg" alt="zipline">
+                <div class="container">
+                    <div class="hero__content">
+                        <div class="hero__logo-container">
+                            <img class="hero__logo" src="./assets/images/header_logo.svg" alt="">
+                        </div>                        
+                        <p class="hero__subtitle">
+                            Район Телецентра
+                        </p>
+                        <h1 class="hero__title">Зиплайн и смотровая<br> площадка в Уфе</h1>
+                        <p class="hero__description">650 метров ярких впечатлений</p>
+                        <div class="hero__descriptions-list">
+                            <div class="hero__descriptions-item">
+                                <img class="hero__descriptions-icon" src="./assets/images/arrow-r-l.svg" alt="">
+                                <div class="hero__descriptions-content">
+                                    <span> 650 м</span>
+                                    протяжённость
+                                </div>
+                            </div>
+                            <div class="hero__descriptions-item">
+                                <img class="hero__descriptions-icon" src="./assets/images/arrow-u-d.svg" alt="">
+                                <div class="hero__descriptions-content">
+                                    <span> 60 м</span><br>
+                                    высота
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__row">
+                    <div class="about__slider">
+                        <div class="about__slider-images">
+                            <img id="slider1" src="./assets/images/slide1.jpg" alt="Slider 1"
+                                class="about__slider-bg active">
+                            <img id="slider2" src="./assets/images/slide1.jpg" alt="Slider 2" class="about__slider-bg">
+                            <img id="slider3" src="./assets/images/slide1.jpg" alt="Slider 3" class="about__slider-bg">
+                        </div>
+                        <div class="about__slider-controls"></div>
+
+                    </div>
+
+                    <div class="about__content">
+                        <h2 class="about__title">Зиплайн</h2>
+                        <p class="about__description">Это скоростной спуск по стальному тросу.</p>
+                        <div class="about__features">
+                            <div class="about__feature">
+                                <div class="about__feature-header">
+                                    <h3 class="about__feature-title">60</h3>
+                                    <img class="about__feature-icon" src="./assets/images/Group 5.svg">
+                                    <img class="about__feature-icon" src="./assets/images/Group 5.svg">
+                                    <img class="about__feature-icon" src="./assets/images/Group 5.svg">
+                                </div>
+
+                                <p class="about__feature-description">Три линии троллея на высоте до 60 метров</p>
+                            </div>
+                            <div class="about__feature">
+                                <div class="about__feature-header">
+                                    <h3 class="about__feature-title">650</h3>
+                                    <img class="about__feature-icon" src="./assets/images/Line 8.svg">
+
+                                </div>
+                                <p class="about__feature-description">Протяженность маршрута более 650 метров</p>
+                            </div>
+                        </div>
+                        <div class="about__privelegends-list">
+                            <div class="about__privelegends-item">
+                                <img class="about__privelegends-item-icon" src="./assets/images/View.svg" alt="">
+                                <div class="about__privelegends-item-desc">
+                                    Профессиональное альпинистское оборудование
+                                </div>
+                            </div>
+                            <div class="about__privelegends-item">
+                                <img class="about__privelegends-item-icon" src="./assets/images/Star_fill.svg" alt="">
+                                <div class="about__privelegends-item-desc">
+                                    Уникальная видовая смотровая
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="map">
+
+            <div class="map__iframe-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.5399493834876!2d55.9700387!3d54.742692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d94c7e8c27529d%3A0x5cfe8d5bfae4ce2a!2z0JDQstGC0L7QvNC40L3RgdC60LDRjywgNywg0KPQvdGW0LrQuNC5LCDQkdC10YHRgdC40Y8g0L7QsdC7!5e0!3m2!1sru!2sru!4v1696958236351!5m2!1sru!2sru"
+                    class="map__iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <div class="map__desc">
+                    Уфа, Смотровая площадка на ул.Пятигорская, напротив Школы №35
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">  
+                <div class="pricing__row">
+                    <img src="./assets/images/Rectangle 10.jpg" alt="Image description" class="pricing__img">
+                    <div class="pricing__content">
+                        <div class="pricing__header">
+                            <h2 class="pricing__title">Один спуск</h2>
+                            <p class="pricing__price">2000 ₽</p>
+
+                        </div>
+                        <div class="pricing__group">
+                            <p class="pricing__text">Хотите прокатиться группой от 10 человек?</p>
+                            <button class="pricing__button" id="openPopup">Идем группой</button>
+                        </div>
+                        <div class="pricing__discounts">
+                            <div class="pricing__discounts-header">
+                                <img src="./assets/images/Wavy_Warning.svg" alt="" class="pricing__discounts-icon">
+                                <h3 class="pricing__discount-title">Акции и Скидки</h3>
+                            </div>
+                            <ul class="pricing__discount-list">
+                                <li class="pricing__discount-item">
+                                    <div class="pricing__discount-item-count">
+                                        10%
+                                    </div>
+                                    <div class="pricing__discount-item-desc">
+                                        групповое посещение от 15 чел
+                                    </div>
+
+                                </li>
+                                <li class="pricing__discount-item">
+                                    <div class="pricing__discount-item-count">
+                                        30%
+                                    </div>
+                                    <div class="pricing__discount-item-desc">
+                                        🎉 скидка именинникам
+                                    </div>
+
+                                </li>
+                                <li class="pricing__discount-item">
+                                    <div class="pricing__discount-item-count">
+                                        20%
+                                    </div>
+                                    <div class="pricing__discount-item-desc">
+                                        социальная скидка*
+                                    </div>
+
+                                </li>
+
+                            </ul>
+                            <div class="pricing__discount-item-social">
+                                <span class="pricing__note">*уточняйте у наших специалистов</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <h2 class="gallery__title">
+                    Эмоции 🔥 от зиплайна
+                </h2>
+                <div class="swiper-container gallery-container">
+                    <div class="swiper-wrapper gallery-wrapper">
+                        <!-- Слайды -->
+                        <div class="swiper-slide gallery-slide">
+                            <div class="gallery__content">
+                                <img class="gallery-slide-img" src="./assets/images/Rectangle 25.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery-slide">
+                            <div class="gallery__content">
+                                <img class="gallery-slide-img" src="./assets/images/Rectangle 27.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery-slide">
+                            <div class="gallery__content">
+
+                                <img class="gallery-slide-img" src="./assets/images/Rectangle 26.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery-slide">
+                            <div class="gallery__content">
+
+                                <img class="gallery-slide-img" src="./assets/images/Rectangle 26.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Пагинация -->
+
+                    <div class="gallery-button-actions">
+                        <div class="gallery-pagination"></div>
+                        <div class="swiper-button-prev gallery-button-prev"></div>
+                        <div class="swiper-button-next gallery-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h2 class="rewiews__title">Отзывы</h2>
+                <div class="swiper-container reviews-container">
+                    <div class="swiper-wrapper">
+                        <!-- Отзывы -->
+                        <div class="swiper-slide review-slide">
+                            <div class="review-content">
+                                <img class="review-img" src="./assets/images/Rectangle 30.jpg" alt="Client 1">
+                                <h3 class="review-text-title">Это был невероятный опыт!</h3>
+                                <p class="review-desc">
+                                    "Я никогда не забуду этот момент. Сервис на высшем уровне!"
+                                </p>
+                                <h3 class="client-name">Иван Иванов</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide review-slide">
+                            <div class="review-content">
+                                <img class="review-img" src="./assets/images/Rectangle 30 (1).jpg" alt="Client 2">
+                                <h3 class="review-text-title">Зиплайн просто космический!</h3>
+                                <p class="review-desc">
+                                    "Рекомендую всем, кто хочет испытать новые ощущения!"
+                                </p>
+                                <h3 class="client-name">Мария Петрова</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide review-slide">
+                            <div class="review-content">
+                                <img class="review-img" src="./assets/images/Rectangle 30 (2).jpg" alt="Client 3">
+                                <h3 class="review-text-title">Очень круто!</h3>
+                                <p class="review-desc">
+                                    "Очень круто! Приятно удивили условия, все очень безопасно и интересно."
+                                </p>
+                                <h3 class="client-name">Алексей Смирнов</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide review-slide">
+                            <div class="review-content">
+                                <img class="review-img" src="./assets/images/Rectangle 30 (3).jpg" alt="Client 4">
+                                <h3 class="review-text-title">Потрясающий опыт!</h3>
+                                <p class="review-desc">
+                                    "Все прошло на высшем уровне. Очень рекомендую всем!"
+                                </p>
+                                <h3 class="client-name">Екатерина Павлова</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide review-slide">
+                            <div class="review-content">
+                                <img class="review-img" src="./assets/images/Rectangle 30 (1).jpg" alt="Client 5">
+                                <h3 class="review-text-title">Незабываемое приключение!</h3>
+                                <p class="review-desc">
+                                    "Рекомендую всем попробовать. Это стоит того!"
+                                </p>
+                                <h3 class="client-name">Дмитрий Олегович</h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Пагинация -->
+                    <div class="review-button-actions">
+                        <div class="review-pagination"></div>
+                        <div class="swiper-button-prev review-button-prev"></div>
+                        <div class="swiper-button-next review-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__column">
+                    <p class="footer__address">
+                        <a class="footer__address-link" href="#"> ufa@zipline-park.ru</a>
+
+                    </p>
+                    <p class="footer__address">
+                        <a class="footer__address-link" href="#"> Уфа, Гафури 7а </a>
+                    </p>
+                </div>
+                <div class="footer__column">
+                    <a class="footer__address-link" href="#"> <img src="./assets/images/header_logo.svg" alt="Логотип"
+                            class="footer__logo"> </a>
+                </div>
+                <div class="footer__column">
+                    <p class="footer__address">
+                        <a class="footer__address-link" href="#"> +7 963 905 3333 </a>
+                    </p>
+                    <div class="footer__socials">
+                        <img class="footer__socials-icon" src="./assets/images/VK Logomark.svg" alt="vk">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__small">
+                    © Зиплайн Парк, 2024
+                </div>
+                <div class="footer__politics">
+                    <a class="footer__politics-liknk" href="">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup" id="popup">
+        <div class="popup__wrap">
+            <div class="popup__content">
+                <div class="popup__header">
+                    <button class="popup-close" id="popupClose">&times;</button>
+                    <div class="popup__title">
+                        Записаться на зиплайн группой
+                    </div>
+                    <div class="popup__desc">
+                        от 10 человек
+                    </div>
+                </div>
+                <form class="popup__form">
+                    <input type="text" class="popup__field" name="username" placeholder="Имя">
+                    <input type="number" class="popup__field" name="peopleCount" placeholder="Номер">
+                    <div class="popup__form-desc">
+                        <div class="popup__form-desc-field">2000 ₽ / чел</div>
+                        <div class="popup__form-desc-field">10% от 15 человек</div>
+                    </div>
+                    <button type="submit" class="popup__button">Забронировать</button>
+                    <div class="popup__politics">
+                        <input type="checkbox" name="confirmForm" id="confirmForm">
+                        <label for="confirmForm">Даю согласие на обработку персональных данных</label>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+<div class="overlay"></div>
+
+</html>

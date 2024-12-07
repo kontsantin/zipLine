@@ -1,0 +1,71 @@
+/* Подключение GothamPro шрифтов */
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_blackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+} */
+
+/* @font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_bolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+} */
+
+/* @font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+} */
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_lightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+} */
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+/* 
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/Gotham/gothampro_mediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+} */
